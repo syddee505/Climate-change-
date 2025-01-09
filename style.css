@@ -1,9 +1,9 @@
 body{
-  background-color:#e6e4e4;
-  border-style:solid;
-  border-color:dimgrey;
-  border-width:4px;
-  margin:10px;
+background-color:#e6e4e4;
+border-style:solid;
+border-color:dimgrey;
+border-width:4px;
+margin:10px;
 }
 
 h1{
@@ -35,18 +35,17 @@ a{
   background-color:#e6e4e4;
   text-decoration:underline;
 }
-
 .links{
   text-align:center;
   margin: 10px;
-
+  
 }
 .images{
   display:flex;
   justify-content:center;
-
+  
   flex-wrap:wrap;
-
+  
 }
 
 a:link{
@@ -60,22 +59,7 @@ a:visited{
 a:hover{
   color:orange
 }
-
 a:active{
-
+  
 }
 
-color:royalblue;
-}
-
-a:visited{
-  color:red;
-}
-
-a:hover{
-  color:orange
-}
-
-a:active{
-
-}
