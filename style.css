@@ -1,4 +1,4 @@
-body{
+body {
 background-color:#e6e4e4;
 border-style:solid;
 border-color:dimgrey;
@@ -6,11 +6,11 @@ border-width:4px;
 margin:10px;
 }
 
-h1{
+h1 {
   text-align:center;
 }
 
-li{
+li {
   font-size:20px;
 }
 
@@ -21,45 +21,46 @@ img {
   border-style:solid;
   border-color:royalblue;
   border-width:5px
+  justify-content:center;
 }
 
-a{
+a {
   border-style:solid;
   border-radius:10px;
   text-decoration:none;
   padding:3px;
   background-color:azure;
 }
-.text a{
+.text a {
   border-style:none;
   background-color:#e6e4e4;
   text-decoration:underline;
 }
-.links{
+.links {
   text-align:center;
   margin: 10px;
   
 }
-.images{
+.images {
   display:flex;
   justify-content:center;
   
   flex-wrap:wrap;
   
 }
-
-a:link{
+<!-- the link will autoatically be displayed as royalblue-->
+a:link {
   color:royalblue;
 }
-
-a:visited{
+<!-- this changes the color of the link once user presses on link word on website -->
+a:visited {
   color:red;
 }
 
-a:hover{
+a:hover {
   color:orange
 }
-a:active{
+a:active {
   
 }
 
